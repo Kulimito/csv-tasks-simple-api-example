@@ -58,15 +58,6 @@ Routes:
     
      Before the alteration, a validation must be done if the `id` belongs to a task saved in the database.
     
-
-### What about CSV import?
-
-Normally in an API, importing a CSV happens by sending the file down the route, through another format, called `multipart/form-data`.
-
-As we haven't seen this in class yet, the import will be done in another way. Go to the page below for the explanation:
-
-[Creation via CSV with Stream](https://www.notion.so/Cria-o-via-CSV-com-Stream-21ba6d279991473792787d9265212181?pvs=21)
-
 ## Going beyond
 
 Some suggestions of what can be implemented:
