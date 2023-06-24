@@ -53,6 +53,11 @@ export class Database {
         updated_at: data.completed_at
           ? this.#database[table][rowIndex].updated_at
           : new Date(),
+        completed_at: data.completed_at
+          ? this.#database[table][rowIndex].completed_at
+            ? null
+            : data.completed_at
+          : null,
       }
       this.#persist()
       return this.#database[table][rowIndex]
